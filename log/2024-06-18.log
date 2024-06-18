@@ -1,0 +1,234 @@
+2024-06-18 17:37:12 [main] INFO  com.jasonpeng.demo.DemoApplication 50 - Starting DemoApplication using Java 17.0.5 with PID 12840 (D:\Bxt\demo\target\classes started by pengjian in D:\Bxt\demo)
+2024-06-18 17:37:12 [main] INFO  com.jasonpeng.demo.DemoApplication 660 - The following 1 profile is active: "dev"
+2024-06-18 17:37:12 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 632 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+2024-06-18 17:37:12 [main] ERROR o.s.boot.SpringApplication 859 - Application run failed
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:211)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:197)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:129)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:430)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:813)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.jasonpeng.demo.DemoApplication.main(DemoApplication.java:11)
+2024-06-18 17:38:49 [main] INFO  com.jasonpeng.demo.DemoApplication 50 - Starting DemoApplication using Java 17.0.5 with PID 4372 (D:\Bxt\demo\target\classes started by pengjian in D:\Bxt\demo)
+2024-06-18 17:38:49 [main] INFO  com.jasonpeng.demo.DemoApplication 660 - The following 1 profile is active: "dev"
+2024-06-18 17:38:49 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 632 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+2024-06-18 17:38:49 [main] ERROR o.s.boot.SpringApplication 859 - Application run failed
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:211)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:197)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:129)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:430)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:813)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.jasonpeng.demo.DemoApplication.main(DemoApplication.java:10)
+2024-06-18 17:44:14 [main] INFO  com.jasonpeng.demo.DemoApplication 50 - Starting DemoApplication using Java 17.0.5 with PID 22460 (D:\Bxt\demo\target\classes started by pengjian in D:\Bxt\demo)
+2024-06-18 17:44:14 [main] INFO  com.jasonpeng.demo.DemoApplication 660 - The following 1 profile is active: "dev"
+2024-06-18 17:44:14 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 632 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+2024-06-18 17:44:14 [main] ERROR o.s.boot.SpringApplication 859 - Application run failed
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:211)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:197)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:129)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:430)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:813)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.jasonpeng.demo.DemoApplication.main(DemoApplication.java:10)
+2024-06-18 17:47:00 [main] INFO  com.jasonpeng.demo.DemoApplication 50 - Starting DemoApplication using Java 17.0.5 with PID 20760 (D:\Bxt\demo\target\classes started by pengjian in D:\Bxt\demo)
+2024-06-18 17:47:00 [main] INFO  com.jasonpeng.demo.DemoApplication 660 - The following 1 profile is active: "dev"
+2024-06-18 17:47:00 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 632 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+2024-06-18 17:47:00 [main] ERROR o.s.boot.SpringApplication 859 - Application run failed
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:211)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:197)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:129)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:430)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:813)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.jasonpeng.demo.DemoApplication.main(DemoApplication.java:10)
+[2024-06-18 17:48:23] [main] INFO  com.jasonpeng.demo.DemoApplication 55 - Starting DemoApplication using Java 17.0.5 on LAPTOP-Q2AUGUQM with PID 25472 (D:\Bxt\demo\target\classes started by pengjian in D:\Bxt\demo)
+[2024-06-18 17:48:23] [main] INFO  com.jasonpeng.demo.DemoApplication 640 - The following 1 profile is active: "dev"
+[2024-06-18 17:48:25] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 - Multiple Spring Data modules found, entering strict repository configuration mode
+[2024-06-18 17:48:25] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2024-06-18 17:48:25] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[2024-06-18 17:48:25] [main] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.jasonpeng.demo]' package. Please check your configuration.
+[2024-06-18 17:48:25] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 17:48:25] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$589b4034] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 17:48:25] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 17:48:25] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 17:48:25] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+[2024-06-18 17:48:25] [main] INFO  o.a.c.core.AprLifecycleListener 173 - An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+[2024-06-18 17:48:25] [main] INFO  o.a.c.core.AprLifecycleListener 173 - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+[2024-06-18 17:48:25] [main] INFO  o.a.c.core.AprLifecycleListener 173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2024-06-18 17:48:25] [main] INFO  o.a.c.core.AprLifecycleListener 173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2024-06-18 17:48:25] [main] INFO  o.a.c.core.AprLifecycleListener 173 - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+[2024-06-18 17:48:25] [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+[2024-06-18 17:48:26] [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+[2024-06-18 17:48:26] [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2024-06-18 17:48:26] [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+[2024-06-18 17:48:26] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 292 - Root WebApplicationContext: initialization completed in 2184 ms
+[2024-06-18 17:48:26] [main] INFO  c.alibaba.druid.pool.DruidDataSource 1003 - {dataSource-1,o2o} inited
+[2024-06-18 17:48:26] [main] INFO  c.b.d.d.DynamicRoutingDataSource 144 - dynamic-datasource - load a datasource named [o2o] success
+[2024-06-18 17:48:26] [main] INFO  c.b.d.d.DynamicRoutingDataSource 216 - dynamic-datasource initial loaded [1] datasource,primary datasource named [o2o]
+[2024-06-18 17:48:27] [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+[2024-06-18 17:48:27] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8081 (http) with context path '/demo'
+[2024-06-18 17:48:27] [main] INFO  com.jasonpeng.demo.DemoApplication 61 - Started DemoApplication in 4.134 seconds (JVM running for 5.54)
+[2024-06-18 17:54:04] [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource 184 - dynamic-datasource start closing ....
+[2024-06-18 17:54:04] [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1965 - {dataSource-1} closing ...
+[2024-06-18 17:54:04] [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2037 - {dataSource-1} closed
+[2024-06-18 17:54:04] [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource 200 - dynamic-datasource all closed success,bye
+[2024-06-18 18:06:20] [main] INFO  com.jasonpeng.demo.DemoApplication 55 - Starting DemoApplication using Java 17.0.5 on LAPTOP-Q2AUGUQM with PID 6632 (D:\Bxt\demo\target\classes started by pengjian in D:\Bxt\demo)
+[2024-06-18 18:06:20] [main] INFO  com.jasonpeng.demo.DemoApplication 640 - The following 1 profile is active: "dev"
+[2024-06-18 18:06:21] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 - Multiple Spring Data modules found, entering strict repository configuration mode
+[2024-06-18 18:06:21] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2024-06-18 18:06:21] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[2024-06-18 18:06:21] [main] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.jasonpeng.demo]' package. Please check your configuration.
+[2024-06-18 18:06:21] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:06:21] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$69b6112c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:06:21] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:06:21] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:06:21] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+[2024-06-18 18:06:21] [main] INFO  o.a.c.core.AprLifecycleListener 173 - An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+[2024-06-18 18:06:21] [main] INFO  o.a.c.core.AprLifecycleListener 173 - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+[2024-06-18 18:06:21] [main] INFO  o.a.c.core.AprLifecycleListener 173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2024-06-18 18:06:21] [main] INFO  o.a.c.core.AprLifecycleListener 173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2024-06-18 18:06:21] [main] INFO  o.a.c.core.AprLifecycleListener 173 - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+[2024-06-18 18:06:21] [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+[2024-06-18 18:06:21] [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+[2024-06-18 18:06:21] [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2024-06-18 18:06:22] [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+[2024-06-18 18:06:22] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 292 - Root WebApplicationContext: initialization completed in 1565 ms
+[2024-06-18 18:06:22] [main] INFO  c.alibaba.druid.pool.DruidDataSource 1003 - {dataSource-1,o2o} inited
+[2024-06-18 18:06:22] [main] INFO  c.b.d.d.DynamicRoutingDataSource 144 - dynamic-datasource - load a datasource named [o2o] success
+[2024-06-18 18:06:22] [main] INFO  c.b.d.d.DynamicRoutingDataSource 216 - dynamic-datasource initial loaded [1] datasource,primary datasource named [o2o]
+[2024-06-18 18:06:23] [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+[2024-06-18 18:06:23] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8081 (http) with context path '/demo'
+[2024-06-18 18:06:23] [main] INFO  com.jasonpeng.demo.DemoApplication 61 - Started DemoApplication in 3.414 seconds (JVM running for 5.404)
+[2024-06-18 18:06:29] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-06-18 18:06:29] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+[2024-06-18 18:06:29] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 1 ms
+[2024-06-18 18:06:34] [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource 184 - dynamic-datasource start closing ....
+[2024-06-18 18:06:34] [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1965 - {dataSource-1} closing ...
+[2024-06-18 18:06:34] [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2037 - {dataSource-1} closed
+[2024-06-18 18:06:34] [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource 200 - dynamic-datasource all closed success,bye
+[2024-06-18 18:07:21] [main] INFO  com.jasonpeng.demo.DemoApplication 55 - Starting DemoApplication using Java 17.0.5 on LAPTOP-Q2AUGUQM with PID 2344 (D:\Bxt\demo\target\classes started by pengjian in D:\Bxt\demo)
+[2024-06-18 18:07:21] [main] INFO  com.jasonpeng.demo.DemoApplication 640 - The following 1 profile is active: "dev"
+[2024-06-18 18:07:21] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 - Multiple Spring Data modules found, entering strict repository configuration mode
+[2024-06-18 18:07:21] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2024-06-18 18:07:21] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[2024-06-18 18:07:22] [main] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.jasonpeng.demo]' package. Please check your configuration.
+[2024-06-18 18:07:22] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:07:22] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$6b9c4a1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:07:22] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:07:22] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-06-18 18:07:22] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http)
+[2024-06-18 18:07:22] [main] INFO  o.a.c.core.AprLifecycleListener 173 - An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+[2024-06-18 18:07:22] [main] INFO  o.a.c.core.AprLifecycleListener 173 - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+[2024-06-18 18:07:22] [main] INFO  o.a.c.core.AprLifecycleListener 173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2024-06-18 18:07:22] [main] INFO  o.a.c.core.AprLifecycleListener 173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2024-06-18 18:07:22] [main] INFO  o.a.c.core.AprLifecycleListener 173 - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+[2024-06-18 18:07:22] [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+[2024-06-18 18:07:22] [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+[2024-06-18 18:07:22] [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2024-06-18 18:07:22] [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+[2024-06-18 18:07:22] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 292 - Root WebApplicationContext: initialization completed in 1642 ms
+[2024-06-18 18:07:23] [main] INFO  c.alibaba.druid.pool.DruidDataSource 1003 - {dataSource-1,o2o} inited
+[2024-06-18 18:07:23] [main] INFO  c.b.d.d.DynamicRoutingDataSource 144 - dynamic-datasource - load a datasource named [o2o] success
+[2024-06-18 18:07:23] [main] INFO  c.b.d.d.DynamicRoutingDataSource 216 - dynamic-datasource initial loaded [1] datasource,primary datasource named [o2o]
+[2024-06-18 18:07:23] [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+[2024-06-18 18:07:23] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8081 (http) with context path '/demo'
+[2024-06-18 18:07:23] [main] INFO  com.jasonpeng.demo.DemoApplication 61 - Started DemoApplication in 3.455 seconds (JVM running for 4.589)
+[2024-06-18 18:07:33] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-06-18 18:07:33] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+[2024-06-18 18:07:33] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 1 ms
+[2024-06-18 18:07:33] [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/demo] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-06-18 18:07:44] [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource 184 - dynamic-datasource start closing ....
+[2024-06-18 18:07:44] [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1965 - {dataSource-1} closing ...
+[2024-06-18 18:07:44] [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2037 - {dataSource-1} closed
+[2024-06-18 18:07:44] [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource 200 - dynamic-datasource all closed success,bye

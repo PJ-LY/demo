@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    context-path: /demo
+spring:
+  main:
+    #允许循环引用
+    allow-circular-references: true
+  profiles:
+    active: dev
+logging:
+  config: classpath:logging-config.xml
