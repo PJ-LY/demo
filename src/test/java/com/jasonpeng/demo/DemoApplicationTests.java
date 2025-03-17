@@ -1,19 +1,31 @@
 package com.jasonpeng.demo;
 
-import com.jasonpeng.demo.service.impl.KafkaProducerService;
+// import com.jasonpeng.demo.service.impl.KafkaProducerService;
+
+import lombok.extern.slf4j.Slf4j;
+
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.concurrent.ExecutionException;
 
-@SpringBootTest
+@Slf4j
+// @SpringBootTest
 class DemoApplicationTests {
-    @Autowired
-    private KafkaProducerService kafkaProducerService;
+    // @Autowired
+    // private KafkaProducerService kafkaProducerService;
 
     @Test
     void redisTest() {
+        //打印一句话
+        log.info("hello world 1");
+    }
+
+    @Test
+    void redisTest2() {
+        //打印一句话
+        log.info("hello world 2");
     }
 
     @Test
@@ -25,7 +37,7 @@ class DemoApplicationTests {
 //        kafkaProducerService.getTopicList();
 //        kafkaProducerService.createTopic("test-topic", 1, (short) 1);
 //        kafkaProducerService.getTopicList();
-        kafkaProducerService.sendMessage("my-topic", "hello world");
+        // kafkaProducerService.sendMessage("my-topic", "hello world");
     }
 
 }
